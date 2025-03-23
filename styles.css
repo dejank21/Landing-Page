@@ -21,6 +21,10 @@ body {
     padding: 1rem;
 }
 
+.header h1 {
+    font-size: 1.5rem;
+}
+
 ul{
     display: flex;
     list-style: none;
@@ -39,7 +43,9 @@ a:hover {
     text-decoration: underline;
     color: gray;
 }
+
 /* Container 1 */
+
 .container-1 {
     display: flex;
     justify-content: space-around;
@@ -79,6 +85,7 @@ a:hover {
     background-color: white;
     color: black;
     border: grey .1rem solid;
+    cursor: pointer;
 }
 
 .odin {
@@ -88,11 +95,12 @@ a:hover {
 }
 
 /* Container 2 */
+
 .container-2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #1F2937;
-    color: white;
+    background-color: white;
+    color: black;
     padding: 3rem;
 }
