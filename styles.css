@@ -60,7 +60,7 @@ a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: start;
-    width: 25%;
+    width: 40%;
     gap: 1rem;
 }
 
@@ -139,20 +139,59 @@ a:hover {
 
 .container-3 {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-flow: row wrap;
     background-color: #E5E7EB;
     color: #1F2937;
-    padding: 3rem;
-    text-align: center;
+    padding: 3rem 30rem;
 }
 
 .quote {
     font-size: 2rem;
-    width: 50%;
+    width: 70%;
+    font-style: italic;
 }
 
 .container-3 p {
-    text-align: right;
+    align-self: end;
+}
+
+/* Conatiner 4 */
+
+.container-4 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    color: white;
+    margin: 5rem 30rem;
+    padding: 3rem;
+    gap: 1rem;
+}
+
+.container-4 button {
+    background-color: #3882F6;
+    color: white;
+    padding: .5rem 2rem;
+    border: white .1rem solid;
+    border-radius: .5rem;
+}
+
+.container-4 button:hover {
+    background-color: white;
+    color: black;
+    border: grey .1rem solid;
+    cursor: pointer;
+}
+
+/* Footer */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+    padding: 2rem;
 }
