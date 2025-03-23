@@ -31,12 +31,11 @@ ul{
     justify-content: space-around;
     width: 20%;
     align-items: center;
-    color: white;
 }
 
 a:link {
     text-decoration: none;
-    color: white;
+    color: #E5E7EB;
 }
 
 a:hover {
@@ -52,7 +51,7 @@ a:hover {
     align-items: center;
     background-color: #1F2937;
     color: white;
-    padding: 3rem 6rem;
+    padding: 3rem 10rem;
     
 }
 
@@ -89,7 +88,7 @@ a:hover {
 }
 
 .odin {
-    border: black .3rem solid;
+    border: lightgray .3rem solid;
     border-radius: .5rem;
     padding: 0;
 }
@@ -98,9 +97,62 @@ a:hover {
 
 .container-2 {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+    flex-direction: column;
     background-color: white;
     color: black;
+    gap: 3rem;
     padding: 3rem;
+}
+
+.container-2 h2 {
+    font-size: 2rem;
+}
+
+.container-2 img {
+    width: 15rem;
+    height: 18rem;
+}
+
+.subcontainer-2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5rem;
+}
+
+.image-subtext {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 6rem;
+    width: 65%;
+    color: grey;
+}
+
+.image-subtext p {
+    width: 50%;
+}
+
+/* Container 3 */
+
+.container-3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    color: #1F2937;
+    padding: 3rem;
+    text-align: center;
+}
+
+.quote {
+    font-size: 2rem;
+    width: 50%;
+}
+
+.container-3 p {
+    text-align: right;
 }
